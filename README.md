@@ -1,16 +1,47 @@
 # Memories
 
-![Memories](https://i.ibb.co/Z8Y0CJv/Screenshot-2020-10-30-at-11-10-04.png)
+Memories is a full-stack social media application built with the MERN stack (MongoDB, Express, React, Node.js). Users can create, view, like, and delete posts, each with a title, message, tags, and an image.
 
-## Introduction
-This is a code repository for the corresponding video tutorial - https://youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu.
+## Features
 
-Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called "Memories" and it is a simple social media app that allows users to post interesting events that happened in their lives.
+- Create, edit, and delete posts
+- Like posts
+- Upload images with posts
+- Tag posts for easy searching
+- Responsive and modern UI with Material-UI
 
-By the end of this video, you will have a strong understanding of how the MERN Stack works.
+## Tech Stack
 
-### [🌟 Become a top 1% Next.js 15 developer in only one course](https://jsmastery.pro/next15)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+- **Frontend:** React, Redux, Material-UI, Axios
+- **Backend:** Node.js, Express, MongoDB, Mongoose
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the app
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- MongoDB database (local or cloud)
+
+### Setup Instructions
+
+1. Clone the repository
+2. Install dependencies for both client and server:
+   - In `/client`: `npm install`
+   - In `/server`: `npm install`
+3. Set your MongoDB connection string in `server/index.js` (`CONNECTION_URL`)
+4. Start the backend server:
+   - `cd server`
+   - `npm start`
+5. Start the frontend React app:
+   - `cd client`
+   - `npm start`
+
+The client will run on [http://localhost:3000](http://localhost:3000) and the server on [http://localhost:5000](http://localhost:5000).
+
+## Author
+
+**Nikhil Chaudhary**
+
+---
+
+Feel free to use, modify, and share this project!
